@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest something that would help your setup
+labels: [feature request]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Screen2ipcam Pro to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would it help you?
+      description: Your use case, for example a POS setup, a control room or digital signage

@@ -1,0 +1,33 @@
+name: Problem report
+description: Something isn't working with Screen2ipcam Pro
+labels: [support]
+body:
+  - type: input
+    id: recorder
+    attributes:
+      label: Recorder or VMS
+      description: Brand and model, for example Hikvision DS-7608NI or Blue Iris 5
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: How did you add it?
+      options: [ONVIF search, Manual ONVIF, RTSP link, Not added yet]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, what you saw instead, and a screenshot if you can
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown at the bottom of the control panel, for example 2.0.5
+  - type: markdown
+    attributes:
+      value: "Please don't post passwords, license details or IP addresses from outside your local network. For private questions email support@screen2ipcam.com."

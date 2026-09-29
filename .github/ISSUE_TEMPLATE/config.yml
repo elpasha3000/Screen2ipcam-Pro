@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Get Screen2ipcam Pro on the Microsoft Store
+    url: https://apps.microsoft.com/detail/9P8T6K6GWR87
+    about: Free 14-day trial, secure checkout by Microsoft
+  - name: Setup guide
+    url: https://screen2ipcam.com/pro/guide
+    about: Quick start, recorder steps and troubleshooting
+  - name: Email support
+    url: mailto:support@screen2ipcam.com
+    about: For private questions about your purchase or setup
