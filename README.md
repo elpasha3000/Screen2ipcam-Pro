@@ -85,6 +85,7 @@ The Microsoft Store shows the price in your local currency.
 ## Setup and support
 
 - **Setup guide:** [docs/SETUP.md](docs/SETUP.md) (also online at [screen2ipcam.com/pro/guide](https://screen2ipcam.com/pro/guide))
+- **Installing on several POS PCs:** one command with winget, see [docs/SETUP.md](docs/SETUP.md#installing-on-several-pos-pcs)
 - **Troubleshooting:** [docs/SETUP.md#troubleshooting](docs/SETUP.md#troubleshooting)
 - **Found a problem or want a feature?** [Open an issue](../../issues/new/choose) and tell us your recorder brand.
 - **Email:** support@screen2ipcam.com

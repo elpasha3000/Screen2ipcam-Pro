@@ -12,6 +12,19 @@
 
 > The PC and the recorder must be on the same local network. The video goes straight from the PC to your recorder and never passes through our servers.
 
+## Installing on several POS PCs
+
+Setting up more than one till? Install Screen2ipcam Pro from the Microsoft Store with one command, no clicking through the Store app. Open Command Prompt or PowerShell on each PC and run:
+
+```
+winget install 9P8T6K6GWR87 --source msstore --accept-package-agreements --accept-source-agreements
+```
+
+- It installs the same Microsoft Store app, with Microsoft checkout and automatic updates.
+- The two `--accept` options accept the Microsoft Store terms on that PC, so the install runs without questions.
+- It installs for the Windows user who runs it. Sign in as the user who works on the till.
+- Then open Screen2ipcam Pro once on each PC and press **Start my free trial**.
+
 ## Connection details
 
 | Setting | Default |
